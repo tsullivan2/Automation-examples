@@ -1,3 +1,3 @@
 # hello-world
 Test repository
-My name is Ansel. I suck.
+My name is Ansel. I rule!
