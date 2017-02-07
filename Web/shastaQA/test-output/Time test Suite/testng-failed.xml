@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Time test Suite]">
+  <test name="Smoke Testcases(failed)">
+    <classes>
+      <class name="testcases.LaunchWebsiteTest">
+        <methods>
+          <include name="endSession"/>
+          <include name="driver"/>
+        </methods>
+      </class> <!-- testcases.LaunchWebsiteTest -->
+      <class name="testcases.AboutTabTests">
+        <methods>
+          <include name="management_displayed"/>
+          <include name="about_shasta_click"/>
+          <include name="endSession"/>
+          <include name="management_click"/>
+          <include name="employment_displayed"/>
+          <include name="employment_click"/>
+          <include name="driver"/>
+        </methods>
+      </class> <!-- testcases.AboutTabTests -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [Time test Suite] -->
