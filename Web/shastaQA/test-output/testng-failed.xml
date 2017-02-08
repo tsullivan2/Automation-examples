@@ -1,14 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Time test Suite]">
+  <test name="Smoke Testcases(failed)">
     <classes>
       <class name="testcases.TestingTabTests">
         <methods>
-          <include name="web_application_testing_displayed"/>
+          <include name="endSession"/>
+          <include name="IV_V_click"/>
+          <include name="software_testing_services_click"/>
           <include name="driver"/>
+          <include name="automation_testing_click"/>
+          <include name="mobile_testing_click"/>
+          <include name="test_management_click"/>
         </methods>
       </class> <!-- testcases.TestingTabTests -->
+      <class name="testcases.MgmtPageTests">
+        <methods>
+          <include name="driver"/>
+        </methods>
+      </class> <!-- testcases.MgmtPageTests -->
+      <class name="testcases.LaunchWebsiteTest">
+        <methods>
+          <include name="endSession"/>
+          <include name="driver"/>
+        </methods>
+      </class> <!-- testcases.LaunchWebsiteTest -->
+      <class name="testcases.SolutionsTabTests">
+        <methods>
+          <include name="qa_infusion_click"/>
+          <include name="idd_click"/>
+          <include name="solutions_and_results_click"/>
+          <include name="iv_v_click"/>
+          <include name="qa_team_rev_click"/>
+          <include name="driver"/>
+          <include name="endSession"/>
+        </methods>
+      </class> <!-- testcases.SolutionsTabTests -->
+      <class name="testcases.ContactPageTests">
+        <methods>
+          <include name="phone_required"/>
+          <include name="full_name_required"/>
+          <include name="endSession"/>
+          <include name="email_required"/>
+          <include name="driver"/>
+          <include name="captcha_required"/>
+          <include name="company_required"/>
+        </methods>
+      </class> <!-- testcases.ContactPageTests -->
+      <class name="testcases.MediaTabTests">
+        <methods>
+          <include name="Press_room_displayed"/>
+          <include name="SQA_click"/>
+          <include name="endSession"/>
+          <include name="driver"/>
+          <include name="SMC_click"/>
+          <include name="Press_room_click"/>
+        </methods>
+      </class> <!-- testcases.MediaTabTests -->
+      <class name="testcases.WTETabTests">
+        <methods>
+          <include name="project_planning_click"/>
+          <include name="project_mastery_click"/>
+          <include name="driver"/>
+          <include name="needs_analysis_click"/>
+          <include name="what_to_expect_click"/>
+          <include name="project_execution_click"/>
+          <include name="endSession"/>
+        </methods>
+      </class> <!-- testcases.WTETabTests -->
+      <class name="testcases.AboutTabTests">
+        <methods>
+          <include name="about_shasta_click"/>
+          <include name="endSession"/>
+          <include name="management_click"/>
+          <include name="employment_click"/>
+          <include name="driver"/>
+        </methods>
+      </class> <!-- testcases.AboutTabTests -->
+      <class name="testcases.KCCTabTests">
+        <methods>
+          <include name="SQA_faqs_click"/>
+          <include name="Contact_click"/>
+          <include name="Knowledge_center_click"/>
+          <include name="driver"/>
+          <include name="endSession"/>
+        </methods>
+      </class> <!-- testcases.KCCTabTests -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [Time test Suite] -->

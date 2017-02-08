@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcases.TestingTabTests">
+      <class name="testcases.MgmtPageTests">
         <methods>
-          <include name="web_application_testing_displayed"/>
           <include name="driver"/>
+          <include name="donNameDisplayed"/>
         </methods>
-      </class> <!-- testcases.TestingTabTests -->
+      </class> <!-- testcases.MgmtPageTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
