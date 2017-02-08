@@ -14,7 +14,7 @@ public class TestingTabObj {
 	}
 	
 	//Testing tab
-	@FindBy(xpath=".//*[@id='window']/ul/li[2]/a")
+	@FindBy(xpath="//*[@id='window']/ul/li[2]/a")
 	WebElement testing_tab;
 	public WebElement Testing_tab() {
 		return testing_tab;
@@ -24,7 +24,7 @@ public class TestingTabObj {
 	}
 	
 	//Testing Tab > Software Testing Services
-	@FindBy(xpath=".//*[@id='window']/ul/li[2]/ul/li[1]/a")
+	@FindBy(xpath="//*[@id='window']/ul/li[2]/ul/li[1]/a")
 	WebElement software_testing_services;
 	public WebElement Software_testing_services() {
 		return software_testing_services;
@@ -42,7 +42,7 @@ public class TestingTabObj {
 	
 	
 	//Testing Tab > Web Application Testing
-	@FindBy(xpath=".//*[@id='window']/ul/li[2]/ul/li[2]/a")
+	@FindBy(xpath="//*[@id='window']/ul/li[2]/ul/li[2]/a")
 	WebElement web_application_testing;
 	public WebElement Web_application_testing() {
 		return web_application_testing;
@@ -52,7 +52,7 @@ public class TestingTabObj {
 	}
 	
 	//Testing Tab > Web Application Testing > Page Element
-	@FindBy (xpath="html/body/div[1]/div[3]/div[1]/div/div[1]/div[1]/div/h4")
+	@FindBy (xpath="//html/body/div[1]/div[3]/div[1]/div/div[1]/div[1]/div/h4")
 	WebElement web_application_testing_element;
 	public String Web_application_testing_element_text() {
 		return web_application_testing_element.getText();
@@ -60,7 +60,7 @@ public class TestingTabObj {
 	
 	
 	//Testing Tab > Mobile Testing
-	@FindBy (xpath=".//*[@id='window']/ul/li[2]/ul/li[3]/a")
+	@FindBy (xpath="//*[@id='window']/ul/li[2]/ul/li[3]/a")
 	WebElement mobile_testing;
 	public WebElement Mobile_testing() {
 		return mobile_testing;
@@ -69,8 +69,15 @@ public class TestingTabObj {
 		return mobile_testing.getText();
 	}
 	
+	//Testing Tab > Mobile Testing > Page element
+	@FindBy (xpath="//html/body/div[1]/div[3]/div[1]/h2")
+	WebElement mobile_testing_element;
+	public String Mobile_testing_element_text() {
+		return mobile_testing_element.getText();
+	}
+	
 	//Testing Tab > Automation Testing
-	@FindBy (xpath=".//*[@id='window']/ul/li[2]/ul/li[4]/a")
+	@FindBy (xpath="//*[@id='window']/ul/li[2]/ul/li[4]/a")
 	WebElement automation_testing;
 	public WebElement Automation_testing() {
 		return automation_testing;
@@ -79,9 +86,16 @@ public class TestingTabObj {
 		return automation_testing.getText();
 	}
 	
+	//Testing Tab > Automation Testing > Page element
+	@FindBy (xpath="//html/body/div[1]/div[3]/div[1]/p[1]")
+	WebElement  automation_testing_element;
+	public String Automation_testing_element_text() {
+		return automation_testing_element.getText();
+	}
+	
 	
 	//Testing Tab > Test Management
-	@FindBy (xpath=".//*[@id='window']/ul/li[2]/ul/li[5]/a")
+	@FindBy (xpath="//*[@id='window']/ul/li[2]/ul/li[5]/a")
 	WebElement test_management;
 	public WebElement Test_management() {
 		return test_management;
@@ -90,9 +104,16 @@ public class TestingTabObj {
 		return test_management.getText();
 	}
 	
+	//Testing Tab > Test Management > Page element
+	@FindBy (xpath="//html/body/div[1]/div[3]/div[1]/h2")
+	WebElement test_management_element;
+	public String Test_management_element_text() {
+		return test_management_element.getText();
+	}
+	
 	
 	//Testing Tab > Independent Verification and Validation
-	@FindBy (xpath=".//*[@id='window']/ul/li[2]/ul/li[6]/a")
+	@FindBy (xpath="//*[@id='window']/ul/li[2]/ul/li[6]/a")
 	WebElement iv_v;
 	public WebElement IV_V() {
 		return iv_v;
@@ -100,6 +121,14 @@ public class TestingTabObj {
 	public String IV_V_text() {
 		return iv_v.getText();
 	}
+	
+	//Testing Tab > Independent Verification and Validation > Page element
+	@FindBy (xpath="//html/body/div[1]/div[3]/div[1]/h2")
+	WebElement iv_v_element;
+	public String IV_V_element_text() {
+		return iv_v_element.getText();
+	}
+	
 	
 }
 

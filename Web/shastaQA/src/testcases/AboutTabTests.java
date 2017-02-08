@@ -46,10 +46,11 @@ public class AboutTabTests {
 	}
 	
 	@Test(priority = 2)
-	public void about_shasta_click() {
+	public void about_shasta_click() throws InterruptedException {
 		AboutTabObj ato=new AboutTabObj(driver);
 		//Click on "About Shasta QA" link
 		ato.About_shasta_qa().click();
+		Thread.sleep(2000);
 		//Verify "About Shasta QA" title is displayed
 		String expectedTitle = "About Shasta QA";
 		String actualTitle = ato.About_shasta_qa_title();
@@ -68,10 +69,11 @@ public class AboutTabTests {
 	}
 	
 	@Test(priority = 4)
-	public void management_click(){
+	public void management_click() throws InterruptedException{
 		AboutTabObj ato=new AboutTabObj(driver);
 		//Click on "Management team" link
 		ato.Management_team().click();
+		Thread.sleep(2000);
 		//Verify "Management team" title is displayed
 		String expectedString = "MEET DON";
 		String actualString = ato.Management_team_title();
@@ -90,10 +92,11 @@ public class AboutTabTests {
 	}
 	
 	@Test(priority = 6)
-	public void employment_click() {
+	public void employment_click() throws InterruptedException {
 		AboutTabObj ato=new AboutTabObj(driver);
 		//Click on "Employment" link
 		ato.Employment().click();
+		Thread.sleep(2000);
 		//Verify "Employment" title is displayed
 		String expectedString = "WORKING WITH US YOU CAN:";
 		String actualString = ato.Employment_title();

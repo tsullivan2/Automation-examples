@@ -1,93 +1,421 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+<testng-results skipped="0" failed="0" ignored="0" total="80" passed="80">
   <reporter-output>
   </reporter-output>
-  <suite name="Time test Suite" duration-ms="27150" started-at="2017-02-03T23:22:02Z" finished-at="2017-02-03T23:22:29Z">
+  <suite name="Time test Suite" duration-ms="156523" started-at="2017-02-08T23:42:10Z" finished-at="2017-02-08T23:44:46Z">
     <groups>
     </groups>
-    <test name="Smoke Testcases" duration-ms="27150" started-at="2017-02-03T23:22:02Z" finished-at="2017-02-03T23:22:29Z">
-      <class name="testcases.LaunchWebsiteTest">
-        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.LaunchWebsiteTest@4520ebad]" name="driver" is-config="true" duration-ms="5788" started-at="2017-02-03T15:22:09Z" finished-at="2017-02-03T15:22:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driver -->
-        <test-method status="PASS" signature="launch_site()[pri:0, instance:testcases.LaunchWebsiteTest@4520ebad]" name="launch_site" duration-ms="86" started-at="2017-02-03T15:22:14Z" finished-at="2017-02-03T15:22:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_site -->
-        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.LaunchWebsiteTest@4520ebad]" name="endSession" is-config="true" duration-ms="686" started-at="2017-02-03T15:22:14Z" finished-at="2017-02-03T15:22:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endSession -->
-      </class> <!-- testcases.LaunchWebsiteTest -->
+    <test name="Smoke Testcases" duration-ms="156523" started-at="2017-02-08T23:42:10Z" finished-at="2017-02-08T23:44:46Z">
       <class name="testcases.TestingTabTests">
-        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.TestingTabTests@5419f379]" name="driver" is-config="true" duration-ms="4798" started-at="2017-02-03T15:22:15Z" finished-at="2017-02-03T15:22:20Z">
+        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.TestingTabTests@51565ec2]" name="driver" is-config="true" duration-ms="6516" started-at="2017-02-08T15:42:58Z" finished-at="2017-02-08T15:43:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driver -->
-        <test-method status="PASS" signature="testing_tab_displayed()[pri:0, instance:testcases.TestingTabTests@5419f379]" name="testing_tab_displayed" duration-ms="88" started-at="2017-02-03T15:22:20Z" finished-at="2017-02-03T15:22:20Z">
+        <test-method status="PASS" signature="testing_tab_displayed()[pri:0, instance:testcases.TestingTabTests@51565ec2]" name="testing_tab_displayed" duration-ms="83" started-at="2017-02-08T15:43:04Z" finished-at="2017-02-08T15:43:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testing_tab_displayed -->
-        <test-method status="PASS" signature="software_testing_services_displayed()[pri:1, instance:testcases.TestingTabTests@5419f379]" name="software_testing_services_displayed" duration-ms="249" started-at="2017-02-03T15:22:20Z" finished-at="2017-02-03T15:22:21Z">
+        <test-method status="PASS" signature="software_testing_services_displayed()[pri:1, instance:testcases.TestingTabTests@51565ec2]" name="software_testing_services_displayed" duration-ms="289" started-at="2017-02-08T15:43:26Z" finished-at="2017-02-08T15:43:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- software_testing_services_displayed -->
-        <test-method status="PASS" signature="software_testing_services_click()[pri:2, instance:testcases.TestingTabTests@5419f379]" name="software_testing_services_click" duration-ms="1382" started-at="2017-02-03T15:22:22Z" finished-at="2017-02-03T15:22:23Z">
+        <test-method status="PASS" signature="software_testing_services_click()[pri:2, instance:testcases.TestingTabTests@51565ec2]" name="software_testing_services_click" duration-ms="2178" started-at="2017-02-08T15:43:38Z" finished-at="2017-02-08T15:43:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- software_testing_services_click -->
-        <test-method status="PASS" signature="web_application_testing_displayed()[pri:3, instance:testcases.TestingTabTests@5419f379]" name="web_application_testing_displayed" duration-ms="207" started-at="2017-02-03T15:22:24Z" finished-at="2017-02-03T15:22:24Z">
+        <test-method status="PASS" signature="web_application_testing_displayed()[pri:3, instance:testcases.TestingTabTests@51565ec2]" name="web_application_testing_displayed" duration-ms="196" started-at="2017-02-08T15:43:44Z" finished-at="2017-02-08T15:43:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- web_application_testing_displayed -->
-        <test-method status="PASS" signature="web_application_testing_click()[pri:4, instance:testcases.TestingTabTests@5419f379]" name="web_application_testing_click" duration-ms="1171" started-at="2017-02-03T15:22:25Z" finished-at="2017-02-03T15:22:26Z">
+        <test-method status="PASS" signature="web_application_testing_click()[pri:4, instance:testcases.TestingTabTests@51565ec2]" name="web_application_testing_click" duration-ms="2213" started-at="2017-02-08T15:43:59Z" finished-at="2017-02-08T15:44:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- web_application_testing_click -->
-        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.TestingTabTests@5419f379]" name="endSession" is-config="true" duration-ms="993" started-at="2017-02-03T15:22:26Z" finished-at="2017-02-03T15:22:27Z">
+        <test-method status="PASS" signature="mobile_testing_displayed()[pri:5, instance:testcases.TestingTabTests@51565ec2]" name="mobile_testing_displayed" duration-ms="196" started-at="2017-02-08T15:44:06Z" finished-at="2017-02-08T15:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile_testing_displayed -->
+        <test-method status="PASS" signature="mobile_testing_click()[pri:6, instance:testcases.TestingTabTests@51565ec2]" name="mobile_testing_click" duration-ms="2197" started-at="2017-02-08T15:44:18Z" finished-at="2017-02-08T15:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile_testing_click -->
+        <test-method status="PASS" signature="automation_testing_displayed()[pri:7, instance:testcases.TestingTabTests@51565ec2]" name="automation_testing_displayed" duration-ms="179" started-at="2017-02-08T15:44:23Z" finished-at="2017-02-08T15:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automation_testing_displayed -->
+        <test-method status="PASS" signature="automation_testing_click()[pri:8, instance:testcases.TestingTabTests@51565ec2]" name="automation_testing_click" duration-ms="2152" started-at="2017-02-08T15:44:25Z" finished-at="2017-02-08T15:44:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automation_testing_click -->
+        <test-method status="PASS" signature="test_management_displayed()[pri:9, instance:testcases.TestingTabTests@51565ec2]" name="test_management_displayed" duration-ms="167" started-at="2017-02-08T15:44:30Z" finished-at="2017-02-08T15:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_management_displayed -->
+        <test-method status="PASS" signature="test_management_click()[pri:10, instance:testcases.TestingTabTests@51565ec2]" name="test_management_click" duration-ms="2136" started-at="2017-02-08T15:44:32Z" finished-at="2017-02-08T15:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_management_click -->
+        <test-method status="PASS" signature="IV_V_displayed()[pri:11, instance:testcases.TestingTabTests@51565ec2]" name="IV_V_displayed" duration-ms="183" started-at="2017-02-08T15:44:41Z" finished-at="2017-02-08T15:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IV_V_displayed -->
+        <test-method status="PASS" signature="IV_V_click()[pri:12, instance:testcases.TestingTabTests@51565ec2]" name="IV_V_click" duration-ms="2138" started-at="2017-02-08T15:44:41Z" finished-at="2017-02-08T15:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IV_V_click -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.TestingTabTests@51565ec2]" name="endSession" is-config="true" duration-ms="3215" started-at="2017-02-08T15:44:43Z" finished-at="2017-02-08T15:44:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSession -->
       </class> <!-- testcases.TestingTabTests -->
-      <class name="testcases.AboutTabTests">
-        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.AboutTabTests@58651fd0]" name="driver" is-config="true" duration-ms="6663" started-at="2017-02-03T15:22:02Z" finished-at="2017-02-03T15:22:08Z">
+      <class name="testcases.LaunchWebsiteTest">
+        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.LaunchWebsiteTest@20e2cbe0]" name="driver" is-config="true" duration-ms="6424" started-at="2017-02-08T15:42:28Z" finished-at="2017-02-08T15:42:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driver -->
-        <test-method status="PASS" signature="about_tab_displayed()[pri:0, instance:testcases.AboutTabTests@58651fd0]" name="about_tab_displayed" duration-ms="143" started-at="2017-02-03T15:22:08Z" finished-at="2017-02-03T15:22:09Z">
+        <test-method status="PASS" signature="launch_site()[pri:0, instance:testcases.LaunchWebsiteTest@20e2cbe0]" name="launch_site" duration-ms="88" started-at="2017-02-08T15:42:34Z" finished-at="2017-02-08T15:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_site -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.LaunchWebsiteTest@20e2cbe0]" name="endSession" is-config="true" duration-ms="250" started-at="2017-02-08T15:42:34Z" finished-at="2017-02-08T15:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testcases.LaunchWebsiteTest -->
+      <class name="testcases.ContactPageTests">
+        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.ContactPageTests@2a2d45ba]" name="driver" is-config="true" duration-ms="8030" started-at="2017-02-08T15:43:13Z" finished-at="2017-02-08T15:43:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method status="PASS" signature="full_name_required()[pri:1, instance:testcases.ContactPageTests@2a2d45ba]" name="full_name_required" duration-ms="5280" started-at="2017-02-08T15:43:21Z" finished-at="2017-02-08T15:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- full_name_required -->
+        <test-method status="PASS" signature="company_required()[pri:2, instance:testcases.ContactPageTests@2a2d45ba]" name="company_required" duration-ms="1656" started-at="2017-02-08T15:43:34Z" finished-at="2017-02-08T15:43:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- company_required -->
+        <test-method status="PASS" signature="email_required()[pri:3, instance:testcases.ContactPageTests@2a2d45ba]" name="email_required" duration-ms="1457" started-at="2017-02-08T15:43:43Z" finished-at="2017-02-08T15:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email_required -->
+        <test-method status="PASS" signature="phone_required()[pri:4, instance:testcases.ContactPageTests@2a2d45ba]" name="phone_required" duration-ms="1486" started-at="2017-02-08T15:43:55Z" finished-at="2017-02-08T15:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phone_required -->
+        <test-method status="PASS" signature="captcha_required()[pri:5, instance:testcases.ContactPageTests@2a2d45ba]" name="captcha_required" duration-ms="1570" started-at="2017-02-08T15:44:04Z" finished-at="2017-02-08T15:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captcha_required -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.ContactPageTests@2a2d45ba]" name="endSession" is-config="true" duration-ms="262" started-at="2017-02-08T15:44:05Z" finished-at="2017-02-08T15:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testcases.ContactPageTests -->
+      <class name="testcases.MgmtPageTests">
+        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="driver" is-config="true" duration-ms="9917" started-at="2017-02-08T15:42:40Z" finished-at="2017-02-08T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method status="PASS" signature="annaNameDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="annaNameDisplayed" duration-ms="68" started-at="2017-02-08T15:42:50Z" finished-at="2017-02-08T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- annaNameDisplayed -->
+        <test-method status="PASS" signature="annaTitleDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="annaTitleDisplayed" duration-ms="61" started-at="2017-02-08T15:42:50Z" finished-at="2017-02-08T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- annaTitleDisplayed -->
+        <test-method status="PASS" signature="chrisNameDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="chrisNameDisplayed" duration-ms="61" started-at="2017-02-08T15:42:50Z" finished-at="2017-02-08T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrisNameDisplayed -->
+        <test-method status="PASS" signature="chrisTitleDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="chrisTitleDisplayed" duration-ms="60" started-at="2017-02-08T15:42:50Z" finished-at="2017-02-08T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrisTitleDisplayed -->
+        <test-method status="PASS" signature="christinaNameDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="christinaNameDisplayed" duration-ms="66" started-at="2017-02-08T15:42:50Z" finished-at="2017-02-08T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- christinaNameDisplayed -->
+        <test-method status="PASS" signature="christinaTitleDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="christinaTitleDisplayed" duration-ms="60" started-at="2017-02-08T15:42:50Z" finished-at="2017-02-08T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- christinaTitleDisplayed -->
+        <test-method status="PASS" signature="donNameDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="donNameDisplayed" duration-ms="64" started-at="2017-02-08T15:42:50Z" finished-at="2017-02-08T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donNameDisplayed -->
+        <test-method status="PASS" signature="donTitleDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="donTitleDisplayed" duration-ms="63" started-at="2017-02-08T15:42:50Z" finished-at="2017-02-08T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donTitleDisplayed -->
+        <test-method status="PASS" signature="ericNameDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="ericNameDisplayed" duration-ms="62" started-at="2017-02-08T15:42:50Z" finished-at="2017-02-08T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ericNameDisplayed -->
+        <test-method status="PASS" signature="ericTitleDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="ericTitleDisplayed" duration-ms="61" started-at="2017-02-08T15:42:51Z" finished-at="2017-02-08T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ericTitleDisplayed -->
+        <test-method status="PASS" signature="jimNameDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="jimNameDisplayed" duration-ms="66" started-at="2017-02-08T15:42:51Z" finished-at="2017-02-08T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jimNameDisplayed -->
+        <test-method status="PASS" signature="jimTitleDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="jimTitleDisplayed" duration-ms="72" started-at="2017-02-08T15:42:51Z" finished-at="2017-02-08T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jimTitleDisplayed -->
+        <test-method status="PASS" signature="mikeBNameDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="mikeBNameDisplayed" duration-ms="60" started-at="2017-02-08T15:42:51Z" finished-at="2017-02-08T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mikeBNameDisplayed -->
+        <test-method status="PASS" signature="mikeBTitleDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="mikeBTitleDisplayed" duration-ms="62" started-at="2017-02-08T15:42:51Z" finished-at="2017-02-08T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mikeBTitleDisplayed -->
+        <test-method status="PASS" signature="mikeLNameDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="mikeLNameDisplayed" duration-ms="59" started-at="2017-02-08T15:42:51Z" finished-at="2017-02-08T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mikeLNameDisplayed -->
+        <test-method status="PASS" signature="mikeLTitleDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="mikeLTitleDisplayed" duration-ms="61" started-at="2017-02-08T15:42:51Z" finished-at="2017-02-08T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mikeLTitleDisplayed -->
+        <test-method status="PASS" signature="yukaNameDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="yukaNameDisplayed" duration-ms="78" started-at="2017-02-08T15:42:51Z" finished-at="2017-02-08T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yukaNameDisplayed -->
+        <test-method status="PASS" signature="yukaTitleDisplayed()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="yukaTitleDisplayed" duration-ms="63" started-at="2017-02-08T15:42:51Z" finished-at="2017-02-08T15:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yukaTitleDisplayed -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.MgmtPageTests@28feb3fa]" name="endSession" is-config="true" duration-ms="1017" started-at="2017-02-08T15:42:51Z" finished-at="2017-02-08T15:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testcases.MgmtPageTests -->
+      <class name="testcases.MediaTabTests">
+        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.MediaTabTests@68be2bc2]" name="driver" is-config="true" duration-ms="5352" started-at="2017-02-08T15:42:34Z" finished-at="2017-02-08T15:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method status="PASS" signature="media_tab_displayed()[pri:0, instance:testcases.MediaTabTests@68be2bc2]" name="media_tab_displayed" duration-ms="215" started-at="2017-02-08T15:42:40Z" finished-at="2017-02-08T15:42:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- media_tab_displayed -->
+        <test-method status="PASS" signature="SQA_displayed()[pri:1, instance:testcases.MediaTabTests@68be2bc2]" name="SQA_displayed" duration-ms="334" started-at="2017-02-08T15:43:12Z" finished-at="2017-02-08T15:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQA_displayed -->
+        <test-method status="PASS" signature="SQA_click()[pri:2, instance:testcases.MediaTabTests@68be2bc2]" name="SQA_click" duration-ms="2284" started-at="2017-02-08T15:43:30Z" finished-at="2017-02-08T15:43:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQA_click -->
+        <test-method status="PASS" signature="SMC_displayed()[pri:3, instance:testcases.MediaTabTests@68be2bc2]" name="SMC_displayed" duration-ms="192" started-at="2017-02-08T15:43:42Z" finished-at="2017-02-08T15:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SMC_displayed -->
+        <test-method status="PASS" signature="SMC_click()[pri:4, instance:testcases.MediaTabTests@68be2bc2]" name="SMC_click" duration-ms="5182" started-at="2017-02-08T15:43:47Z" finished-at="2017-02-08T15:43:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SMC_click -->
+        <test-method status="PASS" signature="Press_room_displayed()[pri:5, instance:testcases.MediaTabTests@68be2bc2]" name="Press_room_displayed" duration-ms="180" started-at="2017-02-08T15:44:03Z" finished-at="2017-02-08T15:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Press_room_displayed -->
+        <test-method status="PASS" signature="Press_room_click()[pri:6, instance:testcases.MediaTabTests@68be2bc2]" name="Press_room_click" duration-ms="2204" started-at="2017-02-08T15:44:13Z" finished-at="2017-02-08T15:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Press_room_click -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.MediaTabTests@68be2bc2]" name="endSession" is-config="true" duration-ms="1173" started-at="2017-02-08T15:44:15Z" finished-at="2017-02-08T15:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testcases.MediaTabTests -->
+      <class name="testcases.AboutTabTests">
+        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.AboutTabTests@7c16905e]" name="driver" is-config="true" duration-ms="10194" started-at="2017-02-08T15:42:10Z" finished-at="2017-02-08T15:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method status="PASS" signature="about_tab_displayed()[pri:0, instance:testcases.AboutTabTests@7c16905e]" name="about_tab_displayed" duration-ms="126" started-at="2017-02-08T15:42:20Z" finished-at="2017-02-08T15:42:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- about_tab_displayed -->
-        <test-method status="PASS" signature="about_shasta_displayed()[pri:1, instance:testcases.AboutTabTests@58651fd0]" name="about_shasta_displayed" duration-ms="242" started-at="2017-02-03T15:22:20Z" finished-at="2017-02-03T15:22:20Z">
+        <test-method status="PASS" signature="about_shasta_displayed()[pri:1, instance:testcases.AboutTabTests@7c16905e]" name="about_shasta_displayed" duration-ms="270" started-at="2017-02-08T15:43:12Z" finished-at="2017-02-08T15:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- about_shasta_displayed -->
-        <test-method status="PASS" signature="about_shasta_click()[pri:2, instance:testcases.AboutTabTests@58651fd0]" name="about_shasta_click" duration-ms="1448" started-at="2017-02-03T15:22:21Z" finished-at="2017-02-03T15:22:22Z">
+        <test-method status="PASS" signature="about_shasta_click()[pri:2, instance:testcases.AboutTabTests@7c16905e]" name="about_shasta_click" duration-ms="2793" started-at="2017-02-08T15:43:27Z" finished-at="2017-02-08T15:43:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- about_shasta_click -->
-        <test-method status="PASS" signature="management_displayed()[pri:3, instance:testcases.AboutTabTests@58651fd0]" name="management_displayed" duration-ms="257" started-at="2017-02-03T15:22:23Z" finished-at="2017-02-03T15:22:24Z">
+        <test-method status="PASS" signature="management_displayed()[pri:3, instance:testcases.AboutTabTests@7c16905e]" name="management_displayed" duration-ms="186" started-at="2017-02-08T15:43:42Z" finished-at="2017-02-08T15:43:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- management_displayed -->
-        <test-method status="PASS" signature="management_click()[pri:4, instance:testcases.AboutTabTests@58651fd0]" name="management_click" duration-ms="1275" started-at="2017-02-03T15:22:24Z" finished-at="2017-02-03T15:22:25Z">
+        <test-method status="PASS" signature="management_click()[pri:4, instance:testcases.AboutTabTests@7c16905e]" name="management_click" duration-ms="2563" started-at="2017-02-08T15:43:45Z" finished-at="2017-02-08T15:43:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- management_click -->
-        <test-method status="PASS" signature="employment_displayed()[pri:5, instance:testcases.AboutTabTests@58651fd0]" name="employment_displayed" duration-ms="172" started-at="2017-02-03T15:22:27Z" finished-at="2017-02-03T15:22:27Z">
+        <test-method status="PASS" signature="employment_displayed()[pri:5, instance:testcases.AboutTabTests@7c16905e]" name="employment_displayed" duration-ms="186" started-at="2017-02-08T15:44:03Z" finished-at="2017-02-08T15:44:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- employment_displayed -->
-        <test-method status="PASS" signature="employment_click()[pri:6, instance:testcases.AboutTabTests@58651fd0]" name="employment_click" duration-ms="1217" started-at="2017-02-03T15:22:27Z" finished-at="2017-02-03T15:22:29Z">
+        <test-method status="PASS" signature="employment_click()[pri:6, instance:testcases.AboutTabTests@7c16905e]" name="employment_click" duration-ms="2217" started-at="2017-02-08T15:44:06Z" finished-at="2017-02-08T15:44:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- employment_click -->
-        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.AboutTabTests@58651fd0]" name="endSession" is-config="true" duration-ms="223" started-at="2017-02-03T15:22:29Z" finished-at="2017-02-03T15:22:29Z">
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.AboutTabTests@7c16905e]" name="endSession" is-config="true" duration-ms="1090" started-at="2017-02-08T15:44:08Z" finished-at="2017-02-08T15:44:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSession -->
       </class> <!-- testcases.AboutTabTests -->
+      <class name="testcases.KCCTabTests">
+        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.KCCTabTests@2a5ca609]" name="driver" is-config="true" duration-ms="6275" started-at="2017-02-08T15:42:20Z" finished-at="2017-02-08T15:42:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method status="PASS" signature="KC_tab_displayed()[pri:0, instance:testcases.KCCTabTests@2a5ca609]" name="KC_tab_displayed" duration-ms="1220" started-at="2017-02-08T15:42:26Z" finished-at="2017-02-08T15:42:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KC_tab_displayed -->
+        <test-method status="PASS" signature="Knowledge_center_displayed()[pri:1, instance:testcases.KCCTabTests@2a5ca609]" name="Knowledge_center_displayed" duration-ms="281" started-at="2017-02-08T15:43:26Z" finished-at="2017-02-08T15:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Knowledge_center_displayed -->
+        <test-method status="PASS" signature="Knowledge_center_click()[pri:2, instance:testcases.KCCTabTests@2a5ca609]" name="Knowledge_center_click" duration-ms="2177" started-at="2017-02-08T15:43:36Z" finished-at="2017-02-08T15:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Knowledge_center_click -->
+        <test-method status="PASS" signature="SQA_faqs_displayed()[pri:3, instance:testcases.KCCTabTests@2a5ca609]" name="SQA_faqs_displayed" duration-ms="174" started-at="2017-02-08T15:43:44Z" finished-at="2017-02-08T15:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQA_faqs_displayed -->
+        <test-method status="PASS" signature="SQA_faqs_click()[pri:4, instance:testcases.KCCTabTests@2a5ca609]" name="SQA_faqs_click" duration-ms="2367" started-at="2017-02-08T15:43:56Z" finished-at="2017-02-08T15:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SQA_faqs_click -->
+        <test-method status="PASS" signature="Contact_displayed()[pri:5, instance:testcases.KCCTabTests@2a5ca609]" name="Contact_displayed" duration-ms="67" started-at="2017-02-08T15:44:05Z" finished-at="2017-02-08T15:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact_displayed -->
+        <test-method status="PASS" signature="Contact_click()[pri:6, instance:testcases.KCCTabTests@2a5ca609]" name="Contact_click" duration-ms="2180" started-at="2017-02-08T15:44:09Z" finished-at="2017-02-08T15:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Contact_click -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.KCCTabTests@2a5ca609]" name="endSession" is-config="true" duration-ms="1085" started-at="2017-02-08T15:44:11Z" finished-at="2017-02-08T15:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testcases.KCCTabTests -->
+      <class name="testcases.WTETabTests">
+        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.WTETabTests@482f8f11]" name="driver" is-config="true" duration-ms="6809" started-at="2017-02-08T15:43:05Z" finished-at="2017-02-08T15:43:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method status="PASS" signature="wte_tab_displayed()[pri:0, instance:testcases.WTETabTests@482f8f11]" name="wte_tab_displayed" duration-ms="336" started-at="2017-02-08T15:43:11Z" finished-at="2017-02-08T15:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wte_tab_displayed -->
+        <test-method status="PASS" signature="what_to_expect_displayed()[pri:1, instance:testcases.WTETabTests@482f8f11]" name="what_to_expect_displayed" duration-ms="242" started-at="2017-02-08T15:43:26Z" finished-at="2017-02-08T15:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- what_to_expect_displayed -->
+        <test-method status="PASS" signature="what_to_expect_click()[pri:2, instance:testcases.WTETabTests@482f8f11]" name="what_to_expect_click" duration-ms="2167" started-at="2017-02-08T15:43:40Z" finished-at="2017-02-08T15:43:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- what_to_expect_click -->
+        <test-method status="PASS" signature="needs_analysis_displayed()[pri:3, instance:testcases.WTETabTests@482f8f11]" name="needs_analysis_displayed" duration-ms="190" started-at="2017-02-08T15:43:45Z" finished-at="2017-02-08T15:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- needs_analysis_displayed -->
+        <test-method status="PASS" signature="needs_analysis_click()[pri:4, instance:testcases.WTETabTests@482f8f11]" name="needs_analysis_click" duration-ms="2159" started-at="2017-02-08T15:44:01Z" finished-at="2017-02-08T15:44:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- needs_analysis_click -->
+        <test-method status="PASS" signature="project_planning_displayed()[pri:5, instance:testcases.WTETabTests@482f8f11]" name="project_planning_displayed" duration-ms="245" started-at="2017-02-08T15:44:06Z" finished-at="2017-02-08T15:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- project_planning_displayed -->
+        <test-method status="PASS" signature="project_planning_click()[pri:6, instance:testcases.WTETabTests@482f8f11]" name="project_planning_click" duration-ms="2212" started-at="2017-02-08T15:44:20Z" finished-at="2017-02-08T15:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- project_planning_click -->
+        <test-method status="PASS" signature="project_execution_displayed()[pri:7, instance:testcases.WTETabTests@482f8f11]" name="project_execution_displayed" duration-ms="183" started-at="2017-02-08T15:44:23Z" finished-at="2017-02-08T15:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- project_execution_displayed -->
+        <test-method status="PASS" signature="project_execution_click()[pri:8, instance:testcases.WTETabTests@482f8f11]" name="project_execution_click" duration-ms="2151" started-at="2017-02-08T15:44:27Z" finished-at="2017-02-08T15:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- project_execution_click -->
+        <test-method status="PASS" signature="project_mastery_displayed()[pri:9, instance:testcases.WTETabTests@482f8f11]" name="project_mastery_displayed" duration-ms="171" started-at="2017-02-08T15:44:30Z" finished-at="2017-02-08T15:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- project_mastery_displayed -->
+        <test-method status="PASS" signature="project_mastery_click()[pri:10, instance:testcases.WTETabTests@482f8f11]" name="project_mastery_click" duration-ms="4899" started-at="2017-02-08T15:44:35Z" finished-at="2017-02-08T15:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- project_mastery_click -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.WTETabTests@482f8f11]" name="endSession" is-config="true" duration-ms="1350" started-at="2017-02-08T15:44:39Z" finished-at="2017-02-08T15:44:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testcases.WTETabTests -->
+      <class name="testcases.SolutionsTabTests">
+        <test-method status="PASS" signature="driver()[pri:0, instance:testcases.SolutionsTabTests@675d3402]" name="driver" is-config="true" duration-ms="5666" started-at="2017-02-08T15:42:52Z" finished-at="2017-02-08T15:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driver -->
+        <test-method status="PASS" signature="solutions_tab_displayed()[pri:0, instance:testcases.SolutionsTabTests@675d3402]" name="solutions_tab_displayed" duration-ms="146" started-at="2017-02-08T15:42:58Z" finished-at="2017-02-08T15:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- solutions_tab_displayed -->
+        <test-method status="PASS" signature="solutions_and_results_displayed()[pri:1, instance:testcases.SolutionsTabTests@675d3402]" name="solutions_and_results_displayed" duration-ms="298" started-at="2017-02-08T15:43:12Z" finished-at="2017-02-08T15:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- solutions_and_results_displayed -->
+        <test-method status="PASS" signature="solutions_and_results_click()[pri:2, instance:testcases.SolutionsTabTests@675d3402]" name="solutions_and_results_click" duration-ms="2246" started-at="2017-02-08T15:43:32Z" finished-at="2017-02-08T15:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- solutions_and_results_click -->
+        <test-method status="PASS" signature="qa_team_rev_displayed()[pri:3, instance:testcases.SolutionsTabTests@675d3402]" name="qa_team_rev_displayed" duration-ms="195" started-at="2017-02-08T15:43:43Z" finished-at="2017-02-08T15:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qa_team_rev_displayed -->
+        <test-method status="PASS" signature="qa_team_rev_click()[pri:4, instance:testcases.SolutionsTabTests@675d3402]" name="qa_team_rev_click" duration-ms="2182" started-at="2017-02-08T15:43:53Z" finished-at="2017-02-08T15:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qa_team_rev_click -->
+        <test-method status="PASS" signature="qa_infusion_displayed()[pri:5, instance:testcases.SolutionsTabTests@675d3402]" name="qa_infusion_displayed" duration-ms="268" started-at="2017-02-08T15:44:03Z" finished-at="2017-02-08T15:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qa_infusion_displayed -->
+        <test-method status="PASS" signature="qa_infusion_click()[pri:6, instance:testcases.SolutionsTabTests@675d3402]" name="qa_infusion_click" duration-ms="2289" started-at="2017-02-08T15:44:16Z" finished-at="2017-02-08T15:44:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qa_infusion_click -->
+        <test-method status="PASS" signature="iv_v_displayed()[pri:7, instance:testcases.SolutionsTabTests@675d3402]" name="iv_v_displayed" duration-ms="167" started-at="2017-02-08T15:44:23Z" finished-at="2017-02-08T15:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iv_v_displayed -->
+        <test-method status="PASS" signature="iv_v_click()[pri:8, instance:testcases.SolutionsTabTests@675d3402]" name="iv_v_click" duration-ms="2137" started-at="2017-02-08T15:44:23Z" finished-at="2017-02-08T15:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iv_v_click -->
+        <test-method status="PASS" signature="idd_displayed()[pri:9, instance:testcases.SolutionsTabTests@675d3402]" name="idd_displayed" duration-ms="156" started-at="2017-02-08T15:44:30Z" finished-at="2017-02-08T15:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- idd_displayed -->
+        <test-method status="PASS" signature="idd_click()[pri:10, instance:testcases.SolutionsTabTests@675d3402]" name="idd_click" duration-ms="2142" started-at="2017-02-08T15:44:30Z" finished-at="2017-02-08T15:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- idd_click -->
+        <test-method status="PASS" signature="endSession()[pri:0, instance:testcases.SolutionsTabTests@675d3402]" name="endSession" is-config="true" duration-ms="176" started-at="2017-02-08T15:44:32Z" finished-at="2017-02-08T15:44:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSession -->
+      </class> <!-- testcases.SolutionsTabTests -->
     </test> <!-- Smoke Testcases -->
   </suite> <!-- Time test Suite -->
 </testng-results>
