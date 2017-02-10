@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30875" started-at="2017-02-10T16:59:38Z" finished-at="2017-02-10T17:00:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30875" started-at="2017-02-10T16:59:38Z" finished-at="2017-02-10T17:00:09Z">
+      <class name="com.appium.tests.FirstButtonTest">
+        <test-method status="PASS" signature="createEnvironment()[pri:0, instance:com.appium.tests.FirstButtonTest@51efea79]" name="createEnvironment" is-config="true" duration-ms="21827" started-at="2017-02-10T08:59:38Z" finished-at="2017-02-10T09:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEnvironment -->
+        <test-method status="PASS" signature="clickFirstButton()[pri:0, instance:com.appium.tests.FirstButtonTest@51efea79]" name="clickFirstButton" duration-ms="7982" started-at="2017-02-10T09:00:00Z" finished-at="2017-02-10T09:00:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickFirstButton -->
+        <test-method status="PASS" signature="tearEnvironment()[pri:0, instance:com.appium.tests.FirstButtonTest@51efea79]" name="tearEnvironment" is-config="true" duration-ms="1046" started-at="2017-02-10T09:00:08Z" finished-at="2017-02-10T09:00:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearEnvironment -->
+      </class> <!-- com.appium.tests.FirstButtonTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
